@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace C_Assignment5.UI
 {
-    internal class Menu
+    public class Menu
     {
+        public static void DisplayMainMenu()
+        {
+            // Implement the main menu display here
+        }
+
+        public static string GetInput(string prompt)
+        {
+            Console.Write(prompt);
+            return Console.ReadLine();
+        }
+
+        // Implement methods for displaying other menus and capturing user input
     }
 }
